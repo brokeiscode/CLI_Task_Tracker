@@ -45,19 +45,28 @@ task-cli update 1 "Buy groceries and cook dinner"
 
 task-cli delete 1
 
-### Marking a task as in progress or done
+### Marking a task as in progress
 
 task-cli mark-in-progress 1
+
+### Marking a task as done
+
 task-cli mark-done 1
 
 ### Listing all tasks
 
 task-cli list
 
-### Listing tasks by status
+### Listing tasks by status => done
 
 task-cli list done
+
+### Listing tasks by status => todo
+
 task-cli list todo
+
+### Listing tasks by status => in-progress
+
 task-cli list in-progress
 
 # Project
