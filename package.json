@@ -1,0 +1,14 @@
+{
+  "name": "cli_task_tracker",
+  "version": "1.0.0",
+  "description": "A command line task tracker",
+  "main": "app.js",
+  "bin": {
+    "task-cli": "./app.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Olakunle Owolabi (owolabi.olakunlesimeon@gmail.com)",
+  "license": "MIT"
+}
